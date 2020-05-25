@@ -7,7 +7,7 @@ Other points to be noted :
 1.For the functionality of alarm 'pop up' notification make sure you have floating notifications and lockscreen notifications enabled for SmartBot.
 2.Opening some of the applications might take a while ,please hold on while its searching for the app.
 Further Enhancement :(out of SRS specifications) 
-1.I recently thought of implementing a new activity with current weather report and news report (which can be scrolled) using weather and news APIs as home activity including a floating action button which on clicked would redirect us to the chat window (present home activity). But the extra work couldn't be completed with in the duration of project.
+1.I recently thought of implementing a new activity with current weather report and news report (which can be scrolled) using weather and news APIs as home activity including a floating action button which on clicked would redirect us to the chat window (present home activity).  But the extra work couldn't be completed with in the duration of project.
 2.SmartBot could further be advanced by using artificial intelligence, machine learning and nlp.
 
 
