@@ -279,7 +279,7 @@ public class HomeActivity extends AppCompatActivity implements TimePickerDialog.
 
         }else if(matches.get(0).contains("what can you do")||matches.get(0).contains("what will you do")||matches.get(0).contains("what are your capabilities")){
             textToSpeech.speak(" i can assist you in making a call, send text message,create event,browse, set an alarm or open any application",TextToSpeech.QUEUE_FLUSH,null);
-            ReceivedMessage(lv,adapter,messages,"i can assist you in making a call, send text message,create event,browse, set an alarm or open any application");
+            ReceivedMessage(lv,adapter,messages,"I can assist you in making a call, send text message,create event,browse, set an alarm or open any application");
 
         }else if (matches.get(0).contains("call")) {
 
@@ -401,7 +401,8 @@ public class HomeActivity extends AppCompatActivity implements TimePickerDialog.
             }
         }else if (matches.get(0).contains("search") || matches.get(0).contains("what")
                 || matches.get(0).contains("who") || matches.get(0).contains("how") ||
-                matches.get(0).contains("browse") || matches.get(0).contains("find")||matches.get(0).contains("show")){
+                matches.get(0).contains("browse") || matches.get(0).contains("find")||matches.get(0).contains("show")||
+                 matches.get(0).contains("where")||matches.get(0).contains("when")||matches.get(0).contains("why")){
             if(checkConnection() == true) {
                 String string = matches.get(0);
 
