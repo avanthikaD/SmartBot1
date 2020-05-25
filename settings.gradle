@@ -1,0 +1,2 @@
+rootProject.name='SmartBot'
+include ':app'

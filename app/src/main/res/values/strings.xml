@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SmartBot</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="text_message_name">SmartBot</string>
+    <string name="messageByBot">hi man, how are you?</string>
+    <string name="messageByUser" />
+
+
+</resources>
